@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <section>
+        <div class="header">
+            <h1>Calculator</h1>
+        </div>
+    </section>
+    <section class="process">
+        <span class="sum" id="sum">
+            <a onclick="calcSum()" href="#">SUM</a>
+        </span>
+        <span class="mul">
+            <a onclick="calcMul()" href="#" id="mul">MULTIPLY</a>
+        </span>
+    </section>
+    <section class="inputs" id="final">
+        <input type="number" id="num1">
+        <p id="sign"></p>
+        <input type="number" id="num2">
+    </section>
+    <div class="process" id="btn">
+
+        <a onclick="calculate()" href="#">Calculate</a>
+
+    </div>
+    <div id="answer" class="answer">
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

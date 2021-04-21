@@ -1,0 +1,168 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+body
+{
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    
+}
+.header
+{
+    text-align: center;
+}
+.header h1 
+{
+    font-size: 4em;
+    position: relative;
+    top: 1.5em;
+    color:#fff;
+    text-shadow: 0 0 10px rgb(206, 206, 206),
+        0 0 20px rgb(206, 206, 206),
+        0 0 40px rgb(206, 206, 206),
+        0 0 80px rgb(206, 206, 206),
+        0 0 100px rgb(206, 206, 206);
+  /*-webkit-box-reflect: below 1px linear-gradient(transparent,#000); */
+    line-height: 0.70em;
+    animation: animate 1s linear ;
+    margin-bottom: 20px;
+    
+}
+
+@keyframes animate {
+    0%
+    {
+        font-size: 6em;
+        top: 3em;
+    }
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% 
+    {
+        color:#2c2c2c;
+        text-shadow: none;
+
+    }
+    18.1%,20.1%,50%,60.1%,65%,80.1%,90%,92.1%,100% 
+    {
+        color:#fff;
+        text-shadow: 0 0 10px rgb(206, 206, 206),
+        0 0 20px rgb(206, 206, 206),
+        0 0 40px rgb(206, 206, 206),
+        0 0 80px rgb(206, 206, 206),
+        0 0 100px rgb(206, 206, 206);
+
+    }
+    
+    
+}
+
+
+/*PROCESS section*/
+
+.process a
+{
+    font-size: 2em;
+    border: 1px solid #fff;
+    
+
+}
+.process span
+{
+    margin: 50px;
+}
+.process
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8em;
+
+    
+
+}
+.sum a
+{
+    padding: 15px 60.32px 15px 60.32px;
+    text-decoration: none;
+    margin: 0;
+}
+.mul a
+{
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 0;
+}
+.process a
+{
+    
+    color:#fff;
+    box-shadow: 0 0 10px rgb(206, 206, 206),
+        0 0 20px rgb(206, 206, 206),
+        0 0 40px rgb(206, 206, 206),
+        0 0 50px rgb(206, 206, 206),
+        0 0 60px rgb(206, 206, 206);
+}
+.process a:hover
+{
+    background-color: #fff;
+    color: #2c2c2c ;
+    transition: 1s;
+    box-shadow: none;
+}
+#final
+{
+    display: none;
+}
+.inputs input
+{
+    
+    color: black;
+    
+    padding: 15px 16.5px;
+}
+.inputs
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:10em ;
+}
+
+p
+{
+    margin: 15px 44px;
+}
+
+
+#btn
+{
+    position: relative;
+    top: 14em;
+    display: none;
+    
+
+}
+#btn a
+{
+    padding: 15px 60.32px 15px 60.32px;
+    text-decoration: none;
+}
+.answer
+{
+    text-align: center;
+    font-size: 4em;
+    position: relative;
+    top: 4em;
+    color:#fff;
+  
+}
+
+
+
+
+
+
